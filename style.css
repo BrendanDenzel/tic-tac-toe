@@ -63,3 +63,52 @@ button#resetButton {
 button#resetButton:hover {
   background-color: #0073e6;
 }
+
+#startScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#startScreen button{
+  background-color: #0084ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin: 5px auto;
+  cursor: pointer;
+  display: block;
+}
+
+#startScreen button:hover {
+  background-color: #0073e6;
+}
+
+#startScreen p {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-bottom: px;
+}
+
+#startScreen h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
