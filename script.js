@@ -48,3 +48,12 @@ function checkForWinner() {
   }
   return false;
 }
+
+const humanButton = document.getElementById("humanButton");
+const startScreen = document.getElementById("startScreen");
+const gameBoard = document.getElementById("gameBoard");
+
+humanButton.addEventListener("click", function() {
+  startScreen.style.display = "none";
+  gameBoard.style.display = "block";
+});
