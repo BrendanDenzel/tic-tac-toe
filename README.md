@@ -5,5 +5,3 @@ Also has a very modernized look too.
 <br>
 <br>
 -Brendan Denzel
-
-<img align="left" width=500 height=auto src="https://i.imgur.com/JGRd9ut.png">
